@@ -5,6 +5,7 @@ Topics:
  * =>
  * Const
  * Let
+ * default values
  * ...rest
  * Template Literals
 
