@@ -6,7 +6,7 @@ var numberOfCatsIOwn = 0;
 
 function buyCat() {
   numberOfCatsIOwn++;
-  conosle.log('I now own ' + numberOfCatsIOwn + ' cats!');
+  console.log('I now own ' + numberOfCatsIOwn + ' cats!');
 }
 
 var favoriteBooks = [
@@ -17,6 +17,7 @@ var favoriteBooks = [
 ];
 
 var likesCaptainUnderpants = function(bookList) {
+  bookList = bookList || favoriteBooks;
   var yes = false;
   bookList.forEach(function(book) {
     if (book === 'Captain Underpants') yes = true;
